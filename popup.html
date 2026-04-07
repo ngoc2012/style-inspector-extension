@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 220px;
+      padding: 14px;
+      background: #0d1117;
+      color: #c9d1d9;
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 11px;
+      margin: 0;
+    }
+    h1 {
+      font-size: 12px;
+      color: #58a6ff;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    p { color: #8b949e; line-height: 1.6; margin-bottom: 10px; }
+    .badge {
+      display: inline-block;
+      background: #21262d;
+      border: 1px solid #30363d;
+      border-radius: 4px;
+      padding: 2px 6px;
+      color: #3fb950;
+      font-size: 10px;
+    }
+    kbd {
+      background: #21262d;
+      border: 1px solid #30363d;
+      border-radius: 3px;
+      padding: 1px 5px;
+      font-family: inherit;
+      font-size: 10px;
+      color: #e6edf3;
+    }
+    .row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+  <h1>Style Inspector</h1>
+  <p>Panel is injected on every page.</p>
+  <div class="row"><span class="badge">Active</span><span>Hover to inspect</span></div>
+  <div class="row"><kbd>Click</kbd><span>Lock / unlock element</span></div>
+  <div class="row"><kbd>Pause</kbd><span>Freeze inspection</span></div>
+  <div class="row"><kbd>Copy JSON</kbd><span>Export for comparison</span></div>
+</body>
+</html>
